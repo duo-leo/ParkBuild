@@ -5114,7 +5114,7 @@ var ASM_CONSTS = {
   function _Test() {
       window.alert("OMG OMG");
   
-      window.open("t.me/hungtestbot/testpark");
+      window.open("t.me/hungtestbot/testpark", '_blank');
       // window.Telegram.WebApp.showAlert("Hello from Unity");
       // window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark");
       // window.Telegram.WebApp.openLink("t.me/hungtestbot/testpark");
