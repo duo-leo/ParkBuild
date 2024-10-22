@@ -5113,7 +5113,7 @@ var ASM_CONSTS = {
 
   function _Test() {
      if (window.TelegramWebviewProxy !== undefined) {
-      window.alert("OMG OMG");
+      window.alert("OMG OMGodddddd");
       // TelegramWebviewProxy.postEvent(eventType, JSON.stringify(eventData));
       // callback();
     } else {
