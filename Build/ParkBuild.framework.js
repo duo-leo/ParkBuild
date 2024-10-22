@@ -5112,7 +5112,8 @@ var ASM_CONSTS = {
   	}
 
   function _Test() {
-      window.Telegram.WebApp.showAlert("Hello from Unity");
+      window.alert("OMG OMG");
+      // window.Telegram.WebApp.showAlert("Hello from Unity");
       window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark");
     }
 
