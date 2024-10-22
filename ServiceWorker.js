@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Parking_Game-1.5.2";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/ParkBuild.loader.js",
+    "Build/ParkBuild.framework.js",
+    "Build/ParkBuild.data",
+    "Build/ParkBuild.wasm",
     "TemplateData/style.css"
 
 ];
