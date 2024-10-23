@@ -5120,7 +5120,7 @@ var ASM_CONSTS = {
       window.alert("Nah nah");
     }
   
-      window.open("https://t.me/hungtestbot/testpark", '_blank');
+      window.open("https://t.me/hungtestbot/testpark");
       // window.Telegram.WebApp.showAlert("Hello from Unity");
       // window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark");
       // window.Telegram.WebApp.openLink("t.me/hungtestbot/testpark");
