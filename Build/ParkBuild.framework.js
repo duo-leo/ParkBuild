@@ -5115,7 +5115,8 @@ var ASM_CONSTS = {
      if (window.TelegramWebviewProxy !== undefined) {
       window.alert("Hi Hi");
       var eventData = {url: "https://t.me/hungtestbot/testpark"};
-      TelegramWebviewProxy.postEvent('web_app_open_link', JSON.stringify(eventData));
+      // TelegramWebviewProxy.postEvent('web_app_open_link', JSON.stringify(eventData));
+      TelegramWebviewProxy.postEvent('web_app_open_tg_link', JSON.stringify({path_full: "https://t.me/hungtestbot/testpark"}));
       // TelegramWebviewProxy.postEvent(eventType, JSON.stringify(eventData));
       // callback();
     } else {
