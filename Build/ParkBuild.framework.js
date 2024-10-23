@@ -5113,14 +5113,16 @@ var ASM_CONSTS = {
 
   function _Test() {
      if (window.TelegramWebviewProxy !== undefined) {
-      window.alert("OMG OMGodddddd");
+      window.alert("Hi Hi");
+      var eventData = {url: "https://t.me/hungtestbot/testpark"};
+      TelegramWebviewProxy.postEvent('web_app_open_link', JSON.stringify(eventData));
       // TelegramWebviewProxy.postEvent(eventType, JSON.stringify(eventData));
       // callback();
     } else {
       window.alert("Nah nah");
     }
   
-      window.open("https://t.me/hungtestbot/testpark");
+      // window.open("https://t.me/hungtestbot/testpark");
       // window.Telegram.WebApp.showAlert("Hello from Unity");
       // window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark");
       // window.Telegram.WebApp.openLink("t.me/hungtestbot/testpark");
