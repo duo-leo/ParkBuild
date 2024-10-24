@@ -5113,7 +5113,7 @@ var ASM_CONSTS = {
 
   function _Test() {
      if (window.TelegramWebviewProxy !== undefined) {
-      window.alert("Hi Hi");
+      window.alert("Send transaction");
       var eventData = {url: "https://t.me/hungtestbot/testpark"};
       // window.Telegram.WebView.postEvent('web_app_open_link', false, eventData);
       // window.Telegram.WebView.postEvent('web_app_open_tg_link', false, {path_full: "https://t.me/hungtestbot/testpark"});
