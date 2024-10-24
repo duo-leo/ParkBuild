@@ -5117,8 +5117,8 @@ var ASM_CONSTS = {
       var eventData = {url: "https://t.me/hungtestbot/testpark"};
       // window.Telegram.WebView.postEvent('web_app_open_link', false, eventData);
       // window.Telegram.WebView.postEvent('web_app_open_tg_link', false, {path_full: "https://t.me/hungtestbot/testpark"});
-      window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark")
-      // window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark?startapp=2")
+      // window.Telegram.WebApp.openTelegramLink("t.me/hungtestbot/testpark")
+      window.Telegram.WebApp.openTelegramLink("https://t.me/hungtestbot/testpark?startapp=2")
       // TelegramWebviewProxy.postEvent('web_app_open_link', JSON.stringify(eventData));
       // TelegramWebviewProxy.postEvent('web_app_open_tg_link', JSON.stringify({path_full: "https://t.me/hungtestbot/testpark"}));
       // TelegramWebviewProxy.postEvent(eventType, JSON.stringify(eventData));
